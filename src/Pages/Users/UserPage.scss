@@ -1,0 +1,105 @@
+.modalDescription {
+  color: #003a60
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+
+  .text-field-input {
+    width: 404px;
+    // height: 23px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    margin-bottom: 32px;
+  }
+
+  .drop-zone {
+    width: 404px;
+  }
+
+  .DropzoneArea-dropZone-561 {
+    min-height: 180px;
+    background-color: #ffffff;
+  }
+  
+
+}
+
+// .modalButtonContent {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .modalOkButton {
+//   color: #979797;
+//   &:hover {
+//     background-color: #e6f5e8;
+//     color: #0ea11c;
+//   };
+// };
+
+// .modalCancelButton {
+//   color: #979797;
+//   &:hover {
+//     background-color: #fae8e8;
+//     color: #cf1d1d;
+//   };
+// }
+
+// .modalOkButtonSelected {
+//   background-color: #e6f5e8;
+//   color: #0ea11c;
+// };
+
+// .modalCancelButtonSelected {
+//   background-color: #fae8e8;
+//   color: #cf1d1d;
+// }
+
+// .validButton {
+//   background-color: #e2eff3;
+//   color: #496889;
+// }
+
+// .formLabelItem {
+//   color:#003a60;
+// }
+
+// .checkboxItem {
+//   color: #003a60;
+// }
+
+.filterSection {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 140px;
+}
+
+// .statusCell {
+//   display: flex ;
+//   flex-direction: row;
+//   align-items: center;
+// }
+
+// .statusIcon {
+//   font-size: 10px;
+//   margin-right: 2px;
+// }
+
+// .statusPending {
+//   color: #e09000;
+// }
+
+// .statusApproved {
+//   color: #0ea11c;
+// }
+
+// .statusRejected {
+//   color: #cf1d1d;
+// }

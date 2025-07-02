@@ -1,0 +1,48 @@
+$textfield-font-size: 14px;
+$textfield-error-state-color: #e86558;
+$textfield-error-state-background-color: #fce8e8;
+
+.textfield-container {
+	text-align: left;
+
+	.textfield-helper-text.MuiFormHelperText-root.Mui-error {
+		color: $textfield-error-state-color;
+		font-size: $textfield-font-size - 2;
+	}
+}
+
+.input-container {
+	background-color:#f4f8f9;
+	// opacity: 0.08;
+	border-radius: 2px;
+	// min-width: 150px;
+	padding: 2% 5%;
+	// @include box-shadow(-2px 5px 6px 0 $textfield-shadow-color);
+
+	.textfield-input {
+		margin-left: 0.2em;
+		font-size: $textfield-font-size;
+		color: rgba(0, 0, 0, 0.6) !important;
+	}
+
+	.textfield-label.Mui-error {
+		color: $textfield-error-state-color;
+	}
+
+	.MuiInputLabel-root {
+		font-size: $textfield-font-size;
+	}
+
+	.MuiInputBase-root {
+		width: 100%;
+		align-items: baseline;
+	}
+
+	.adornment.MuiIconButton-root {
+		color: $textfield-error-state-color;
+	}
+}
+
+.error-state {
+	background-color: $textfield-error-state-background-color;
+}

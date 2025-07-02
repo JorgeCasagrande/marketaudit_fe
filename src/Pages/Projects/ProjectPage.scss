@@ -1,0 +1,42 @@
+.modalDescription {
+  color: #003a60
+}
+
+.project-form {
+  display: flex;
+  flex-direction: column;
+
+  .text-field-input {
+    width: 404px;
+    // height: 23px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    margin-bottom: 32px;
+  }
+
+  .date-picker-first {
+    margin-right: 4px;
+  }
+  
+  .date-picker {
+    width: 200px;
+  }
+
+}
+
+.filterSection {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 140px;
+
+  .filter-state {
+    margin-right: 5px;
+  }
+}
+
+
+
