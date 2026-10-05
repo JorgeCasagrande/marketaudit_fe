@@ -36,7 +36,7 @@ MarketAudit organiza relevamientos de campo:
 
 - Un **cliente** contrata un **proyecto** de auditoría.
 - El proyecto tiene un **cuestionario** (preguntas con tipos, respuestas posibles y lógica de salto) y un listado de **PDVs** agrupados en **rutas**, cada ruta asignada a un **censista**.
-- Los censistas responden desde una aplicación móvil (⚠️ no incluida en estos repositorios) y el backend guarda las respuestas y fotos (URLs en Amazon S3).
+- Los censistas responden desde una aplicación móvil Android (repositorio `marketaudit-app`) y el backend guarda las respuestas y fotos (URLs en Amazon S3).
 
 **Responsabilidad de este Frontend (backoffice):**
 
@@ -490,8 +490,8 @@ Verificable en el repositorio:
    └─ Usuario existente en la tabla User (o crearlo vía Swagger: POST /api/User/Save).
 8. Verificar comunicación Frontend ↔ Backend
    └─ Grillas de Clientes/Proyectos cargan; en LogsMk/ del backend se registran las requests.
-9. (Opcional) App móvil de censistas
-   └─ ⚠️ No incluida en estos repositorios.
+9. (Opcional) App móvil de censistas (repo marketaudit-app)
+   └─ Ver README de la app: compilar con Android Studio / ./gradlew installDebug.
 ```
 
 ---
