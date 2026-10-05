@@ -473,8 +473,8 @@ Verificable en el repositorio:
 
 ```text
 1. Base de datos
-   └─ Restaurar la base principal de SQL Server (tablas, stored procedures, datos maestros)
-      y crear la base de reportes. Usar el backup entregado junto con el código.
+   └─ Restaurar en SQL Server el backup entregado junto con el código (base completa con datos)
+      y crear la base de reportes.
 2. Configurar Backend (repo marketaudit)
    └─ MarketAudit.WebAPI/App.json → ConnectionString y ReportConnectionString.
 3. Ejecutar Backend
